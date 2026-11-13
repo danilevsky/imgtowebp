@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 		return -1;
 	}
 
-	std::wcout << L"[OK] Convert" << sourceFilePath.toStdWString() << L" to:"
+	std::wcout << L"[OK] Convert:" << sourceFilePath.toStdWString() << L" to:"
 			   << saveToFilePath.toStdWString() << std::endl;
 	return 0;
 }
